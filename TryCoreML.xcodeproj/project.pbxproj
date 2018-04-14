@@ -14,6 +14,7 @@
 		AB6058B91FE021E5001CEB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6058B71FE021E5001CEB70 /* LaunchScreen.storyboard */; };
 		AB6058C41FE021E5001CEB70 /* TryCoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6058C31FE021E5001CEB70 /* TryCoreMLTests.swift */; };
 		AB6058CF1FE021E5001CEB70 /* TryCoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6058CE1FE021E5001CEB70 /* TryCoreMLUITests.swift */; };
+		AB8C7A7D1FE6ABE3008EB82E /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AB8C7A7C1FE6ABE2008EB82E /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AB6058CA1FE021E5001CEB70 /* TryCoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryCoreMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6058CE1FE021E5001CEB70 /* TryCoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCoreMLUITests.swift; sourceTree = "<group>"; };
 		AB6058D01FE021E5001CEB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8C7A7C1FE6ABE2008EB82E /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AB6058AD1FE021E5001CEB70 /* TryCoreML */ = {
 			isa = PBXGroup;
 			children = (
+				AB8C7A7C1FE6ABE2008EB82E /* Resnet50.mlmodel */,
 				AB6058AE1FE021E5001CEB70 /* AppDelegate.swift */,
 				AB6058B01FE021E5001CEB70 /* ViewController.swift */,
 				AB6058B21FE021E5001CEB70 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB6058B11FE021E5001CEB70 /* ViewController.swift in Sources */,
+				AB8C7A7D1FE6ABE3008EB82E /* Resnet50.mlmodel in Sources */,
 				AB6058AF1FE021E5001CEB70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFEC6728B4;
 				INFOPLIST_FILE = TryCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackloud.TryCoreML;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VFEC6728B4;
 				INFOPLIST_FILE = TryCoreML/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackloud.TryCoreML;
